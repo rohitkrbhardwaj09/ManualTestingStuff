@@ -71,4 +71,5 @@
 - Always map **Test Cases** to **Requirements/User Stories**.
 - Use a consistent naming convention for Test Case IDs.
 
-## Excel : https://excel.cloud.microsoft/open/onedrive/?docId=FE91843380CEF79D%21s6bf102230bc14326965f1ce684538891&driveId=FE91843380CEF79D
+### Excel : [Link](https://excel.cloud.microsoft/open/onedrive/?docId=FE91843380CEF79D%21s6bf102230bc14326965f1ce684538891&driveId=FE91843380CEF79D)
+### GoogleSheet: [Link](https://docs.google.com/spreadsheets/d/1Q3Btcow5NZVd_WU5Nzdod1dwaT3Th51MuNKc6EVp0iM/edit?gid=0#gid=0)
