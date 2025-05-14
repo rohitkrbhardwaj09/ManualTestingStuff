@@ -8,6 +8,34 @@
 - Example:
   - "Verify user can log in with valid credentials"
   - "Verify user can add product to cart"
+ 
+# 🧪 Test Scenario Document
+
+## 📘 Module: Shopping Cart
+
+| Scenario ID | Test Scenario Description                          | Priority | Test Type      | Preconditions                        | Expected Result                             |
+|-------------|----------------------------------------------------|----------|----------------|---------------------------------------|----------------------------------------------|
+| TC_SC_001   | Verify adding a single item to the shopping cart   | High     | Functional     | User is logged in                     | Item should be added and displayed in cart   |
+| TC_SC_002   | Verify removing an item from the shopping cart     | Medium   | Functional     | Item already added to cart            | Item should be removed from the cart         |
+| TC_SC_003   | Verify updating quantity in the cart               | High     | Functional     | Item added to cart                    | Quantity should be updated successfully      |
+| TC_SC_004   | Verify cart persists after user logs out and in    | Low      | Usability      | Item in cart before logging out       | Cart should retain items after login         |
+| TC_SC_005   | Verify empty cart message is shown appropriately   | Medium   | UI/Functional  | No item in cart                       | "Your cart is empty" message should display  |
+
+---
+
+## 📘 Module: Checkout Process
+
+| Scenario ID | Test Scenario Description                          | Priority | Test Type      | Preconditions                        | Expected Result                             |
+|-------------|----------------------------------------------------|----------|----------------|---------------------------------------|----------------------------------------------|
+| TC_CO_001   | Verify user is able to proceed to checkout         | High     | Functional     | At least one item in cart             | User is redirected to checkout page          |
+| TC_CO_002   | Verify checkout fails with invalid card details    | High     | Negative       | User on payment screen                | Error message should be displayed            |
+| TC_CO_003   | Verify successful checkout with valid details      | High     | Functional     | All valid data entered                | Order confirmation page should display       |
+| TC_CO_004   | Verify order summary before payment                | Medium   | UI             | Items present in checkout             | Summary should list item, quantity, and cost |
+
+---
+
+> 🧾 **Note**: Test scenarios are high-level and focus on *what to test*. Detailed **test cases** will follow these scenarios and define *how to test*.
+
 
 ## ✅ What is a Test Case?
 
